@@ -1,0 +1,435 @@
+html{
+    font-family: Noto Sans KR, sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+*{margin: 0; padding: 0;}
+
+header{
+    width: 100%;
+    height: 100px;
+    margin: 0 auto;
+    padding: 20px 0 20px 0;
+    margin-bottom: 100px;
+    text-align: center;
+    background-color: lightslategray;
+}
+
+header h1{
+    font-size: 2em;
+    margin: 40px 0 10px 0;
+    color: white
+}
+
+section{
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+}
+
+footer{
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 50px 0 100px 0;
+    background-color: lightslategray;
+    text-align: center;
+}
+
+footer p{
+    color: white;
+}
+
+h1{
+
+}
+
+h2{
+    font-size: 1.6em;
+    margin: 10px 0 10px 0;
+}
+
+h3{
+    width: 200px;
+    font-size: 1.6em;
+}
+
+h1,h2,h3,p{
+    color: rgb(30,30,40);
+}
+
+a{
+    text-decoration: none;
+}
+
+/*nav bar*/
+
+header a{
+    color: white;
+}
+
+header nav{
+    position: fixed;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    height: 50px;
+    background-color: lightslategray;
+}
+
+header ul{
+    width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    border: 0;
+}
+
+header ul li{
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    float: left;
+}
+
+header ul li a{
+    width: 200px;
+    height: 50px;
+    color: white;
+    display: block;
+    line-height: 50px;
+}
+
+header ul li a:hover{
+    color: black;
+    font-weight: 600;
+    transition: ease-in 0.5s;
+}
+/*nav bar 끝*/
+
+/*상단 디자인*/
+
+.empty_box{
+    height: 30px;
+}
+
+.buy_page{
+    margin: auto;
+    padding-top: 100px;
+    width: 1100px;
+    height: 600px;
+}
+
+.buy_page .img{
+    width: 40%;
+    height: auto;
+    display: block;
+    float: left;
+}
+
+.buy_page .img img{
+    width: 100%;
+}
+
+.buy_page .info{
+    width: 55%;
+    height: auto;
+    display: block;
+    float: right;
+}
+
+.buy_page .info .info_top{
+    width: 100%;
+    height: 100px;
+}
+
+.buy_page .info .prod_name{
+    width: 70%;
+    padding: 20px 0 0 10px;
+    display: block;
+    float: left;
+}
+
+.buy_page .info .prod_name p{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: gray;
+}
+
+.buy_page .info .img_heart{
+    padding: 20px 30px 0 32px;
+    width: 8%;
+    display: block;
+    float: right;
+    border-left: solid lightgray;
+}
+
+.buy_page .info .img_heart img{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.buy_page .info .img_heart p{
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+}
+
+.price{
+    padding: 0 10px;
+    margin-bottom: 20px;
+}
+
+.buy_page .info .price p{
+    font-size: 1em;
+    font-weight: 700;
+    color: lightgray;
+    margin: 0;
+}
+
+.buy_page .info .price h2{
+    font-size: 1.5em;
+    font-weight: 700;
+    color: lightslategray;
+    margin: 0;
+}
+
+.buy_page .index{
+    display: block;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.buy_page .index .index_left{
+    width: 15%;
+    display: block;
+    float: left;
+}
+
+.buy_page .index .index_right{
+    width: 60%;
+    display: block;
+    float: left;
+}
+
+.buy_page .buy_button{
+    width: 100%;
+    height: 50px;
+    border: 1px solid lightslategray;
+}
+
+.buy_page .buy_button p{
+    text-align: center;
+    line-height: 50px;
+}
+
+.buy_page .buy_button .button_left{
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    text-decoration: none;
+    display: block;
+    float: left;
+}
+
+.buy_page .buy_button .button_right{
+    width: 50%;
+    height: 50px;
+    background-color: lightslategray;
+    color: white;
+    display: block;
+    float: left;
+}
+
+/*상단 디자인 끝*/
+
+/*카톡 테마*/
+
+.chat_wrap{
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px 0 50px;
+    width: 1000px;
+    height: 2800px;
+    background-color: #9bbbd4;
+}
+
+.chat_wrap .invite{
+    width: 1000px;
+    height: 40px;
+    margin: 15px 0 15px 0;
+    text-align: center;
+    background-color: rgba(30, 30, 30, 0.15)
+}
+
+.chat_wrap .invite p{
+    padding: 5px;
+    font-size: 1.2em;
+    font-weight: 600;
+    color: rgba(70, 70, 70, 0.9);
+}
+
+.chat_wrap .one{
+    margin: 90px 0 90px 0;
+}
+.chat_wrap .talk{
+    width: 1000px;
+    height: 80px;
+    color: black;
+}
+
+.chat_wrap .my_talk{
+    width: auto;
+    height: 50px;
+    margin: 5px 50px 5px 0;
+    padding: 10px 30px 10px 30px;
+    display: block;
+    float: right;
+    border-radius: 25px;
+    background-color: #fef01b;
+}
+
+.chat_wrap .my_talk p{
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+.chat_wrap .other_talk{
+    width: auto;
+    height: 50px;
+    margin: 0 0 0 50px;
+    padding: 10px 30px 10px 30px;
+    display: block;
+    float: left;
+    border-radius: 25px;
+    background-color: white;
+}
+
+.chat_wrap .other_talk p{
+    font-size: 1.9em;
+    font-weight: 500;
+}
+
+.chat_grad{
+    width: 1000px;
+    height: 500px;
+    background: linear-gradient( to bottom, #9bbbd4, white);
+}
+
+/*카톡 테마 끝*/
+
+/*상세페이지 css*/
+
+.prod_explain h1{
+    margin-top: 50px;
+    font-size: 7em;
+    position: absolute;
+    left: 300px
+}
+
+.prod_explain h2{
+    font-size: 2.5em;
+    text-align: center;
+}
+
+.bg_img{
+    width: 100%;
+    height: 1400px;
+    margin: 200px 0 0 0;
+    text-align: center;
+    background-image: url(../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.how_use{
+    width: 800px;
+    height: 1400px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+.how_use .one_line{
+    width: 350px;
+    margin: 50px 0 50px 0;
+    padding: 0 25px 0 25px;
+    display: block;
+    float: left;
+}
+
+.how_use .one_line .one{
+    margin: 80px 0 80px 0;
+}
+
+.how_use .one img{
+    display: block;
+    margin: 0 auto;
+}
+
+.how_use .one p{
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*상세페이지 css 끝*/
+
+/*구성품 css*/
+
+.assets {
+    width: 1000px;
+    text-align: center;
+}
+
+.assets img{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.assets h3{
+    text-align: left;
+}
+
+.assets p{
+    font-size: 1.5em;
+    margin-top: 15px;
+    text-align: left;
+}
+/*구성품 css 끝*/
+
+/*상품정보 css*/
+
+.detail{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+table{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-top: 3px solid black;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+th, td{
+    border: 1px solid lightslategray;
+    padding: 5px;
+}
+
+.detail_th{
+    width: 300px;
+}
+
+.detail_td{
+    width: 500px;
+}
+
+/*상품정보 css 끝*/
